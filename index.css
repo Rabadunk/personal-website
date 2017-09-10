@@ -88,9 +88,9 @@ nav ul li:hover {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transition: all 0.5s;
-	-webkit- transition: all 0.5s;
-	-moz- transition: all 0.5s;
+	transition: all 0.2s;
+	-webkit- transition: all 0.2s;
+	-moz- transition: all 0.2s;
 }
 
 .project #space:hover {
@@ -106,9 +106,9 @@ nav ul li:hover {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transition: all 0.5s;
-	-webkit- transition: all 0.5s;
-	-moz- transition: all 0.5s;
+	transition: all 0.2s;
+	-webkit- transition: all 0.2s;
+	-moz- transition: all 0.2s;
 }
 
 .project #web:hover {
@@ -124,9 +124,9 @@ nav ul li:hover {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transition: all 0.5s;
-	-webkit- transition: all 0.5s;
-	-moz- transition: all 0.5s;
+	transition: all 0.2s;
+	-webkit- transition: all 0.2s;
+	-moz- transition: all 0.2s;
 }
 
 .project #game:hover {
