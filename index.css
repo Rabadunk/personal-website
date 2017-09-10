@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.name {
+	height: 250px;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+nav {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	width: 50%;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	font-size: 150%;
+	font-family: verdana;
+	text-decoration: none;
+	color: snow;
+}
+
+nav ul li:hover {
+	color: rgb(150, 150, 150);
+}
+
+.mountain {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+}
+
+#quote {
+	height: auto;
+	width: 100%;
+	background-image: url(images/quote.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#quote-image {
+	height: auto;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.project {
+	width: 100%;
+	height: 1200px;
+	background-color: black;
+}
+
+.project div {
+	height: 26%;
+	width: 90%;
+	background-color: #232323;
+	margin: 1% auto;
+}
+
+.project a {
+	height: 26%;
+	width: 90%;
+}
+
+.project #space {
+	background-image: url(images/apss.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+	-webkit- transition: all 0.5s;
+	-moz- transition: all 0.5s;
+}
+
+.project #space:hover {
+	background-image: url(images/apsss.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.project #web {
+	background-image: url(images/supercityaerial.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+	-webkit- transition: all 0.5s;
+	-moz- transition: all 0.5s;
+}
+
+.project #web:hover {
+	background-image: url(images/supercityaerials.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.project #game {
+	background-image: url(images/colorgame.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+	-webkit- transition: all 0.5s;
+	-moz- transition: all 0.5s;
+}
+
+.project #game:hover {
+	background-image: url(images/colorgames.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.about-title {
+	width: 20%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	padding-top: 50px;
+}
+
+.about {
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;	
+}
+
+.wrapper {
+	width: 60%;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+
+#profile {
+	width: 30%;
+	height: auto;
+	float: left;
+	border-radius: 10%;
+}
+
+.about p {
+	width: 60%;
+	color: snow;
+	float: right;
+	font-size: 150%;
+	font-family: verdana;
+}
+
+.contact {
+	height: 700px;
+	color: snow;
+	font-family: verdana;
+	background-color: black;
+}
+
+.contact p {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.contact p span {
+	color: rgb(150, 150, 150);
+	text-decoration: underline;
+}
+
+.contact p span:hover {
+	color: snow;
+	text-decoration: underline;
+}
+
+#contact-inner {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#contact-inner form {
+	padding-left: 4%;
+}
+
+#contact-inner form p {
+	text-align: left;
+}
+
+input {
+	padding: 1%;
+	width: 30%;
+	background-color: snow;
+	text-decoration: none;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+textarea {
+	width: 70%;
+	max-width: 70%;
+	height: 100px;
+	max-height: 130px;
+	padding: 2%;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+.submit input {
+	font-family: verdana;
+	text-align: center;
+	border: none;
+	background: none;
+	background-color: snow;
+	width: 20%;
+	color: black;
+	font-size: 120%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.submit input:hover {
+	cursor: pointer;
+	width: 25%;
+	background-color: #3F403F; 
+	color: black;
+
+}
+
+footer {
+	background-color: #232323;
+	text-align: center;
+	font-family: verdana;
+	color: snow;
+	height: 45px;
+}
+
+footer p {
+	padding: 10px;
+}
+
+@media screen and (max-width: 1143px){
+
+	header {
+		height: 600px;
+	}
+
+	.about {
+		height: 600px;
+	}
+
+	.about p {
+		font-size: 100%;
+	}
+
+	.wrapper {
+		width: 80%;
+	}
+}
+
+
+@media screen and (max-width: 900px){
+
+	.name {
+		height: 150px;
+	}
+
+	nav ul li {
+		padding: 5px;
+		font-size: 100%;
+	}
+
+	header {
+		height: 400px;
+	}
+
+	.about-title {
+		width: 40%;
+	}
+
+	.wrapper {
+		text-align: center;
+	}
+
+	#profile {
+		width: 50%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.about p {
+		margin: 0 auto;
+		float: none;
+		text-align: justify;
+		padding-top: 50px;
+		width: 80%;
+	}
+
+	.about {
+		height: 900px;
+	}
+
+	.submit input {
+		width: 30%;
+	}
+
+	.submit input:hover {
+		width: 35%;
+	}
+
+	.project #space {
+		background-image: url(images/smallapssbw.png);
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition: all 0.5s;
+		-webkit- transition: all 0.5s;
+		-moz- transition: all 0.5s;
+	}
+
+	.project #space:hover {
+		background-image: url(images/smallapss.png);
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+}

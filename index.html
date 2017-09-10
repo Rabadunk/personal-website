@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jonathan Alphonso</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<!-- header section -->
+<header>
+
+	<!-- image of my name -->
+	<img src="images/name.png" class="name"> 
+
+	<!-- nav starts here -->
+	<nav>
+		<ul>
+			<a href="#about"><li>About</li></a>
+			<a href="#project"><li>Projects</li></a>
+			<a href="#contact"><li>Contact</li></a>
+		</ul>
+	</nav>
+
+	<!-- image of mountains used for parallax effect -->
+	<img src="images/mountains.png" class="mountain">
+
+</header>
+
+<!---- start of quote section -->
+<section id="quote">
+	<!-- the quote section is just a png image file overlayed on top of a video backgroudn to give it a nice effect. -->
+	<img src="images/quote.png" id="quote-image">
+</section>
+
+<!-- start of project section -->
+<section class="project" id="project">
+	<img src="images/projects.png" class="about-title"> 
+	<!-- 3 divs for each project -->
+	<a href="https://apss-projects.blogs.auckland.ac.nz/2017/09/04/131/"><div id="space"></div></a>
+	<a href="https://rabadunk.github.io/supercityaerial/"><div id="web"></div></a>
+	<a href="https://rabadunk.github.io/colorGame/"><div id="game"></div></a>
+</section>
+
+<!-- start of about section -->
+<section class="about" id="about">
+	<img src="images/about.png" class="about-title"> 
+	<!-- small blurb about myself with a profile pic -->
+	<div class="wrapper">
+		<img src="images/profilepic.jpg" id="profile">
+		<p>Engineering student looking for a challenging part time job over the summer that I can learn important industry skils from. I have taught myself web development related coding languages such as java-script and I have learnt languges such as python while studying data science and engineering at the University of Auckland.  Im really interested in front end development as I enjoy designing things but I am also capable of back end development with my data science background  and would enjoy learning the ropes in either field.</p>
+	</div>
+</section>
+
+<!-- start of contact section -->
+<section class="contact" id="contact">
+	<img src="images/contact.png" class="about-title"> 
+	
+	<p>Feel free to check out my <a href="JonathanAlphonsoCV.pdf" target="_blank"><span>resume</span></a> or contact me using the contact form below.</p>
+
+	<!-- contact form using formspree to send emails to me -->
+	<div id="contact-inner">
+
+		<form class="form" action="https://formspree.io/rabadunk@gmail.com"
+      method="POST">
+
+			<p class="form-name"> 
+				<input type="text" name="name" id="name" placeholder="Bob"> 
+				<label for="name">Name</label>
+			</p>
+
+			<p class="email"> 
+				<input type="text" name="email" id="email" placeholder="mail@example.com"> 
+				<label for="email">Email</label>
+			</p>
+
+			<p class="inquiry"> 
+				<textarea name="inquiry" placeholder="I have a project for you :)"></textarea>
+				<label for="inquiry">Inquiry</label>
+			</p>
+
+			<p class="submit">
+				<input type="submit" name="send">	
+			</p>
+				
+
+		</form>
+
+	</div>
+</section>
+
+<footer>
+	<p>Designed by Jonathan Alphonso</p>
+</footer>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
