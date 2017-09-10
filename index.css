@@ -291,10 +291,16 @@ footer p {
 
 	header {
 		height: 600px;
+		background-attachment: scroll;
+	}
+
+	#quote {
+		background-attachment: scroll;
 	}
 
 	.about {
 		height: 600px;
+		background-attachment: scroll;
 	}
 
 	.about p {
