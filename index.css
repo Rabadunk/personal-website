@@ -71,46 +71,25 @@ nav ul li:hover {
 
 .project {
 	width: 100%;
-	height: 1200px;
+	height: 1000px;
 	background-color: black;
 }
 
 .project div {
-	height: 26%;
+	height: 36%;
 	width: 90%;
 	background-color: #232323;
 	margin: 1% auto;
 }
 
 .project a {
-	height: 26%;
+	height: 46%;
 	width: 90%;
 }
 
-.project #space {
-	background-image: url(images/apss.png);
-	background-position: center center;
-	background-size: cover;
-	-webkit- background-size: cover;
-	-moz- background-size: cover;
-	background-repeat: no-repeat;
-	transition: all 0.2s;
-	-webkit- transition: all 0.2s;
-	-moz- transition: all 0.2s;
-}
-
-.project #space:hover {
-	background-image: url(images/apsss.png);
-	background-position: center center;
-	background-size: cover;
-	-webkit- background-size: cover;
-	-moz- background-size: cover;
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-
 .project #web {
-	background-image: url(images/supercityaerial.png);
+	background-image: url(images/supercityaerials.png);
+	filter: grayscale(1);
 	background-position: center center;
 	background-size: cover;
 	-webkit- background-size: cover;
@@ -122,7 +101,7 @@ nav ul li:hover {
 }
 
 .project #web:hover {
-	background-image: url(images/supercityaerials.png);
+	filter: grayscale(0);
 	background-position: center center;
 	background-size: cover;
 	-webkit- background-size: cover;
@@ -132,7 +111,8 @@ nav ul li:hover {
 }
 
 .project #game {
-	background-image: url(images/colorgame.png);
+	background-image: url(images/colorgames.png);
+	filter: grayscale(1);
 	background-position: center center;
 	background-size: cover;
 	-webkit- background-size: cover;
@@ -144,7 +124,7 @@ nav ul li:hover {
 }
 
 .project #game:hover {
-	background-image: url(images/colorgames.png);
+	filter: grayscale(0);
 	background-position: center center;
 	background-size: cover;
 	-webkit- background-size: cover;
@@ -173,7 +153,7 @@ nav ul li:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	border-top: 5px solid white;
-	border-bottom: 5px solid white;	
+	border-bottom: 5px solid white;
 }
 
 .wrapper {
@@ -270,7 +250,7 @@ textarea {
 .submit input:hover {
 	cursor: pointer;
 	width: 25%;
-	background-color: #3F403F; 
+	background-color: #3F403F;
 	color: black;
 
 }
