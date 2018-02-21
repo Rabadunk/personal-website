@@ -71,23 +71,54 @@ nav ul li:hover {
 
 .project {
 	width: 100%;
-	height: 1000px;
+	height: 1500px;
 	background-color: black;
 }
 
 .project div {
-	height: 36%;
+	height: 20%;
 	width: 90%;
 	background-color: #232323;
 	margin: 1% auto;
 }
 
-.project a {
-	height: 46%;
-	width: 90%;
+
+.project #weatherApp {
+	background-image: url(images/carousel.gif);
+	filter: grayscale(1);
+	background-position: center center;
+	background-size: cover;
+	-webkit- background-size: cover;
+	-moz- background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+	-webkit- transition: all 0.2s;
+	-moz- transition: all 0.2s;
 }
 
-.project #web {
+.project #weatherApp:hover {
+	filter: grayscale(0);
+	cursor: pointer;
+}
+
+.project #nbaApp {
+	background-image: url(images/nbaapp.png);
+	filter: grayscale(1);
+	background-size: cover;
+	-webkit- background-size: cover;
+	-moz- background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+	-webkit- transition: all 0.2s;
+	-moz- transition: all 0.2s;
+}
+
+.project #nbaApp:hover {
+	filter: grayscale(0);
+	cursor: pointer;
+}
+
+.project #supercityaerial {
 	background-image: url(images/supercityaerials.png);
 	filter: grayscale(1);
 	background-position: center center;
@@ -100,20 +131,14 @@ nav ul li:hover {
 	-moz- transition: all 0.2s;
 }
 
-.project #web:hover {
+.project #supercityaerial:hover {
 	filter: grayscale(0);
-	background-position: center center;
-	background-size: cover;
-	-webkit- background-size: cover;
-	-moz- background-size: cover;
-	background-repeat: no-repeat;
 	cursor: pointer;
 }
 
-.project #game {
-	background-image: url(images/colorgames.png);
+.project #colorGame {
+	background-image: url(images/easyMode.gif);
 	filter: grayscale(1);
-	background-position: center center;
 	background-size: cover;
 	-webkit- background-size: cover;
 	-moz- background-size: cover;
@@ -123,13 +148,8 @@ nav ul li:hover {
 	-moz- transition: all 0.2s;
 }
 
-.project #game:hover {
+.project #colorGame:hover {
 	filter: grayscale(0);
-	background-position: center center;
-	background-size: cover;
-	-webkit- background-size: cover;
-	-moz- background-size: cover;
-	background-repeat: no-repeat;
 	cursor: pointer;
 }
 
